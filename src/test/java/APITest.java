@@ -15,7 +15,7 @@ public class APITest {
 
     @BeforeTest
     public void readAllLinks(){
-        String path = "X:\\Code\\RestAPIdev\\src\\test\\resources\\autoria_API_links.csv";
+        String path = "src\\test\\resources\\autoria_API_links.csv";
         links = Collections.emptyList();
 
         try {
